@@ -17,22 +17,20 @@ export default function HeroSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#0066FF]/04 blur-[180px] pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] mb-6">
-            <span className="text-white">Precision Audiences.</span>
-            <br />
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[80px] font-extrabold tracking-tight leading-[1.08] mb-6">
+            <span className="text-white">Precision Audiences. </span>
             <span className="gradient-text">High-Velocity Insights.</span>
-            <br />
-            <span className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold">
+            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-slate-300 mt-3 sm:mt-4 tracking-normal">
               Zero Compromise on Data Integrity.
             </span>
           </h1>
 
           {/* Sub-headline */}
-          <p className="text-lg lg:text-xl text-[#64748B] leading-relaxed max-w-2xl mx-auto mb-10">
+          <p className="text-lg lg:text-xl text-[#94A3B8] leading-relaxed max-w-3xl mx-auto mb-10">
             Research Mink powers global research agencies and Fortune 500 brands with{" "}
-            <span className="text-[#94A3B8]">35M+ verified respondents</span>, real-time feasibility estimates,
+            <span className="text-white font-medium">35M+ verified respondents</span>, real-time feasibility estimates,
             and enterprise-grade fraud defense — across B2B, healthcare, and consumer verticals.
           </p>
 
