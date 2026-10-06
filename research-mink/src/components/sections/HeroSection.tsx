@@ -10,21 +10,14 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden mesh-bg grid-pattern pt-20">
+    <section className="relative overflow-hidden mesh-bg pt-28 pb-16 lg:pt-32 lg:pb-20">
       {/* Decorative orbs */}
-      <div className="absolute top-20 left-[10%] w-72 h-72 rounded-full bg-[#0066FF]/10 blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-20 right-[5%] w-96 h-96 rounded-full bg-[#00D2FF]/08 blur-[140px] pointer-events-none" />
+      <div className="absolute top-10 left-[10%] w-72 h-72 rounded-full bg-[#0066FF]/10 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-10 right-[5%] w-96 h-96 rounded-full bg-[#00D2FF]/08 blur-[140px] pointer-events-none" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#0066FF]/04 blur-[180px] pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2.5 mb-8 px-4 py-2 rounded-full bg-white/[0.04] border border-white/[0.08] text-sm font-medium text-[#94A3B8]">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#10B981] pulse-dot block" />
-            <span>Enterprise Sample Exchange · Now Live in 45+ Markets</span>
-            <ArrowRight size={14} className="text-[#00D2FF]" />
-          </div>
-
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] mb-6">
             <span className="text-white">Precision Audiences.</span>
